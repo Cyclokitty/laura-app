@@ -1,0 +1,111 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto|Pacifico);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-custom {
+    background-color:#738493;
+    color:#ffffff;
+    border-radius:0;
+    font-size: 1.5em;
+    height: 75px;
+    padding-top: 10px;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#38A3D5;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color:transparent;
+ }
+.navbar-custom .navbar-brand {
+    color:#D7C274;
+}
+
+
+#signup {
+    background-image: url(images/rainbow2.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#signup h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#email {
+    text-align: center;
+    padding-top: 125px;
+}
+
+.btn {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}
+
+#cursive {
+    font-family: 'Pacifico', cursive;
+}
+
+.appInfo {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+
+#app {
+    background-color: #D7C274;
+    height: 100vh;
+    width: 100%;
+}
+
+#app h1, h2 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 50%;
+    margin: auto;
+}
+
+#contactUs {
+    background-color:#738493;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    color: #fff;
+}
+
+#contactUs h3 {
+    font-family: 'Pacifico', cursive;
+    color: #D7C274;
+    font-size: 2.0em;
+    float: left;
+}
+
+#drool {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
